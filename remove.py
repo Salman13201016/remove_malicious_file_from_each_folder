@@ -1,8 +1,8 @@
 import os
 from fnmatch import fnmatch
 
-root = 'D:/rich 7 days'
-pattern = "*.htaccess"
+root = 'your directory'
+pattern = "*.htaccess" #specific File Pattern
 
 for path, subdirs, files in os.walk(root):
     for name in files:
